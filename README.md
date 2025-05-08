@@ -17,8 +17,6 @@ A React-based frontend that interacts with the CrUX Analyzer backend to analyze 
 - Error handling for invalid or unreachable URLs
 - Dynamic result display with success & error summaries
 
----
-
 ## 🛠 Tech Stack
 
 - React (via Create React App or Vite)
