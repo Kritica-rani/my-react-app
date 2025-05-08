@@ -90,9 +90,7 @@ The API currently collects the following performance metrics:
 4. **Interaction to Next Paint (INP)**: Measures responsiveness to user interactions
 5. **Time to First Byte (TTFB)**: Measures time from request to first byte of response (using experimental_time_to_first_byte)
 
-## 2. Current Implementation Issues
-
-### 2.1 Performance Issues
+## 2. FUTURE IMPLEMENTATION
 
 1. **No Caching Mechanism**:
 
@@ -100,14 +98,10 @@ The API currently collects the following performance metrics:
    - Increased latency for repeat requests
    - Potential for hitting API rate limits
 
-### 2.2 Maintainability Issues
-
-1. **No Logging Strategy**:
+2. **No Logging Strategy**:
    - Add a error logging mechanism
 
 ## 2. Next Steps and Implementation Plan
-
-### 2.1 High Priority Improvements
 
 #### 2.1.1 Implement Caching
 
