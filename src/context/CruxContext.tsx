@@ -267,7 +267,7 @@ export const CruxProvider: React.FC<{ children: ReactNode }> = ({
       }
 
       try {
-        const response = await fetch("http://localhost:3000/api/crux", {
+        const response = await fetch("https://be-ajov.onrender.com/api/crux", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
